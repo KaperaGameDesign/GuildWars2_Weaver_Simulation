@@ -1,0 +1,36 @@
+﻿ID,skillName,skillType,skillWeapon,createsField,fieldTime,fieldType,animationTime,mainAttunement,secondaryAttunement,cooldown
+FireStrike,Fire Strike,Basic Attack,Sword,False,0.0,,0.44,Fire,,0.0
+FireSwipe,Fire Swipe,Basic Attack,Sword,False,0.0,,0.44,Fire,,0.0
+SearingSlash,Searing Slash,Basic Attack,Sword,False,0.0,,0.68,Fire,,0.0
+FlameUprising,Flame Uprising,,Sword,True,4.0,Fire,0.72,Fire,,8.0
+CauterizingStrike,Cauterizing Strike,,Sword,False,0.0,,0.44,Fire,Fire,15.0
+Wildfire,Wildfire,,Warhorn,True,10.0,Fire,0.84,,Fire,30.0
+Seiche,Seiche,Basic Attack,Sword,False,0.0,,0.44,Water,,0.0
+Clapotis,Clapotis,Basic Attack,Sword,False,0.0,,0.44,Water,,0.0
+BreakingWave,Breaking Wave,Basic Attack,Sword,False,0.0,,0.68,Water,,0.0
+TidalSurge,Tidal Surge,,Warhorn,False,0.0,,0.84,,Water,30.0
+ChargedStrike,Charged Strike,Basic Attack,Sword,False,0.0,,0.44,Air,,0.0
+PolaricSlash,Polaric Slash,Basic Attack,Sword,False,0.0,,0.44,Air,,0.0
+CallLightning,Call Lightning,Basic Attack,Sword,False,0.0,,0.68,Air,,0.0
+QuantumStrike,Quantum Strike,,Sword,False,0.0,,0.68,Air,Air,16.0
+Cyclone,Cyclone,,Warhorn,False,0.0,,0.84,,Air,25.0
+LightningOrb,Lightning Orb,,Warhorn,False,0.0,,0.84,,Air,25.0
+CrystalSlash,Crystal Slash,Basic Attack,Sword,False,0.0,,0.44,Earth,,0.0
+CrystallineStrike,Crystalline Strike,Basic Attack,Sword,False,0.0,,0.44,Earth,,0.0
+CrystallineSunder,Crystalline Sunder,Basic Attack,Sword,False,0.0,,0.68,Earth,,0.0
+EarthenVortex,Earthen Vortex,,Sword,False,0.0,,1.0,Earth,,10.0
+RustFrenzy,Rust Frenzy,,Sword,False,0.0,,1.0,Earth,Earth,15.0
+DustStorm,Dust Storm,,Warhorn,False,0.0,,0.84,,Earth,30.0
+TwinStrike,Twin Strike,Dual Attack,Sword,False,0.0,,0.64,Fire,Water,10.0
+PyroVortex,Pyro Vortex,Dual Attack,Sword,False,0.0,,0.56,Fire,Air,12.0
+LavaSkin,Lava Skin,Dual Attack,Sword,False,0.0,,0.4,Fire,Earth,18.0
+ShearingEdge,Shearing Edge,Dual Attack,Sword,False,0.0,,0.64,Air,Water,12.0
+NaturalFrenzy,Natural Frenzy,Dual Attack,Sword,False,0.0,,1.0,Water,Earth,10.0
+GaleStrike,Gale Strike,Dual Attack,Sword,False,0.0,,0.64,Air,Earth,20.0
+FireAttunement,Fire Attunement,Attunement,Utility,False,0.0,,0.0,,,4.0
+WaterAttunement,Water Attunement,Attunement,Utility,False,0.0,,0.0,,,4.0
+AirAttunement,Air Attunement,Attunement,Utility,False,0.0,,0.0,,,4.0
+EarthAttunement,Earth Attunement,Attunement,Utility,False,0.0,,0.0,,,4.0
+WeaveSelf,Weave Self,,Elite,False,0.0,,0.6,,,90.0
+Firestorm,Firestorm,Glyph,Utility,False,0.0,,1.12,Fire,,25.0
+LightningStorm,Lightning Storm,Glyph,Utility,False,0.0,,1.12,Air,,60.0
