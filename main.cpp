@@ -296,12 +296,14 @@ int main() {
 		secondaryAttunement.clear();
 		attunementTime.clear();
 
-		// Manual declaration of attunement order and time
+		// Manual declaration of attunement order and time - OPTIONAL
+		/*
 		primaryAttunement = {"Air", "Air", "Fire", "Fire", "Earth", "Fire", "Air", "Air", "Fire", "Fire", "Air", "Water", "Fire", "Fire", "Air", "Air", "Fire", "Fire", "Air", "Air", "Fire", "Fire", "Air", "Fire"};
 		secondaryAttunement = {"Fire", "Air", "Air", "Fire", "Fire", "Earth", "Fire", "Air", "Air", "Fire", "Fire", "Air", "Water", "Fire", "Fire", "Air", "Air", "Fire", "Fire", "Air", "Air", "Fire", "Fire", "Air"};
 		attunementTime = {0.0, 1.3, 3.0, 5.1, 6.8, 8.8, 10.5, 12.3, 14.3, 16.2, 18.0, 19.7, 21.5, 24.76, 28.6, 32.28, 35.92, 39.2, 42.7, 46.78, 50.28, 53.56, 57.0, 60.64};
 		wovenAirFinish = 29.678;
 		wovenFireFinish = 29.678;
+		*/
 		
 		// Find correct times of wovenAir/Fire and elementsOfRage
 		for (size_t i = 0; i < primaryAttunement.size(); ++i) {
@@ -630,7 +632,7 @@ int main() {
 		double stormsoul{0.1};
 		double swiftRevenge{0.1};
 		double vulnerablity{0.25};
-		double btth{0.0};
+		double btth{0.1};
 		vector<double> permaAdditiveMods{swiftRevenge, forceSigil, impactSigil};
 		vector<double> permaMultiplicativeMods{pyromancersTraining, stormsoul, vulnerablity, btth};
 		vector<double> permaAdditiveCondiMods{};
