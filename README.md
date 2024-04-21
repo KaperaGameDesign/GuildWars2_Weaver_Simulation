@@ -15,6 +15,7 @@ Notes:
 - there are two outut files, outputRotation.csv and DamageInstances.csv
 
 Things to change/adjust:
+- Player stats/attributes are in Player.cpp
 - numIterations(50,000 by default)     // how many iterative cycles will be done. Probably around 5000 iterations can be done per minute on average machine.
 - maxRotationTime(62 by default)       // how long the rotation should be
 - double randomSwapFireWS = 2.7;       // random max swap intervals during Weave Self/outside of Weave Self, e.g randomSwapFireWS = 2.7 means while in Fire attunement, player will stay in it for 1.6 - 2.7 sec (random)
